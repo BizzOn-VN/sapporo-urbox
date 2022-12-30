@@ -3,10 +3,15 @@
  .list-restaurant-150 .modal-title{
  	font-family: "UTM Bebas";
  	margin-bottom: 0.3rem;
+ 	margin-left: 10px;
+ }
+ #list-restaurant-detail .modal-title{
+ 	margin-left: 0px;
  }
 .list-restaurant-150 .modal-content{
-	background: #d3d3d3;
-	padding: 11px 14px;
+	/*background: #d3d3d3;
+	padding: 11px 14px;*/
+	border-radius: 15px;
 }
 .list-restaurant-150 .btn-rounded{
 	padding-left: 2rem!important;
@@ -55,10 +60,13 @@
 .list-restaurant-150 .list-restaurant-info{
 	
 }
+.list-restaurant-150 .content{
+	text-align: justify;
+}
 .list-restaurant-150 .inner-modal-content{
 	background: #FFF;
 	border-radius: 15px;
-	padding: 6px 3px 15px 15px;
+	padding: 10px 9px 15px 18px;
 }
 .list-restaurant-150 .list-restaurant{
 	max-height: 80vh;
@@ -76,6 +84,10 @@
 .list-restaurant-150 .thumb{
 	width: 60%;
 
+}
+.list-restaurant-150 .list-restaurant .row{
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .list-restaurant-150 .thumb img{
 	width: 100%;
@@ -97,6 +109,6 @@
 }
 .list-restaurant-150 .close-popup{
 	position: absolute;
-	top: 16px;
-	right: 22px;
+	top: 8px;
+	right: 13px;
 }
