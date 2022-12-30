@@ -1,0 +1,102 @@
+/* footer
+ -----------------------------------------------------*/
+ .list-restaurant-150 .modal-title{
+ 	font-family: "UTM Bebas";
+ 	margin-bottom: 0.3rem;
+ }
+.list-restaurant-150 .modal-content{
+	background: #d3d3d3;
+	padding: 11px 14px;
+}
+.list-restaurant-150 .btn-rounded{
+	padding-left: 2rem!important;
+	padding-right: 2rem!important;
+}
+
+@media screen and (max-width: 480px) {
+	.list-restaurant-150 .voucher-confirm-btn{
+		padding: 1.3vw 4vw 1.8vw 4vw!important;
+		font-size: 1.1rem;
+	}
+}
+.list-restaurant-150 .mCSB_inside>.mCSB_container{
+	margin-right: 15px;
+	/*padding-right: 20px;*/
+}
+.list-restaurant-150 .list-restaurant-info .thumb-nail{
+	margin-bottom: 1rem;
+}
+.list-restaurant-150 .list-restaurant-info .thumb-nail img{
+	width: 100%;
+}
+.list-restaurant-150  .name-restaurant{
+	font-size: 27px;
+	font-family: "UTM Bebas";
+	margin:0.8rem 0 0.6rem 0.9rem;
+}
+@media (max-width: 768px){
+	.list-restaurant-150  .name-restaurant{
+		font-size: 18px;
+	}
+}
+.btn-gr-hl button{
+  float: none;
+  opacity: 1;
+}
+.btn-gr-hl{
+	display: table;
+	margin: 0 auto;
+	padding:10px 10px 10px 0px;
+}
+.btn-gr-hl .hl{
+	background: #adadad;
+	margin-left: 1rem;
+}
+.list-restaurant-150 .list-restaurant-info{
+	
+}
+.list-restaurant-150 .inner-modal-content{
+	background: #FFF;
+	border-radius: 15px;
+	padding: 6px 3px 15px 15px;
+}
+.list-restaurant-150 .list-restaurant{
+	max-height: 80vh;
+}
+.list-restaurant-150 .list-restaurant.list-restaurant-info{
+	max-height: 72vh;
+}
+
+.list-restaurant-150 .list-restaurant .close{
+	opacity: 1;
+}
+.list-restaurant-150 .list-restaurant .close:hover{
+	opacity: 1;
+}
+.list-restaurant-150 .thumb{
+	width: 60%;
+
+}
+.list-restaurant-150 .thumb img{
+	width: 100%;
+}
+.list-restaurant-150 .btn-right{
+	display: flex;
+	width: 40%;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.list-restaurant-150 .btn-rounded{
+	color: #FFF !important;
+	font-size: 1.2rem !important;
+	padding-bottom: 0.4rem !important;
+}
+.list-restaurant-150 .inner-modal-content .row{
+	margin-bottom: 15px;
+}
+.list-restaurant-150 .close-popup{
+	position: absolute;
+	top: 16px;
+	right: 22px;
+}
